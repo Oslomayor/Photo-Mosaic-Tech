@@ -39,7 +39,7 @@
 
   ![](https://github.com/Oslomayor/Markdown-Imglib/blob/master/Imgs/rawA.jpg)
 
-- 用 PS 等图片处理工具，把**背景小图**和**主题大图**调整为相同尺寸
+- 用 PS 等图片处理工具，把**背景小图**和**主题大图**调整为**相同尺寸**
 
 ### 3. 运行 Python 脚本
 
