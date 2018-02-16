@@ -29,7 +29,7 @@
 - 选择一个包含成百上千张图片的文件夹，作为 Foto-Mosaic-Edda 的数据库
 - 软件内部有向导，按照 Foto-Mosaic-Edda 的向导，选择一张纯白图片作为 theme 图片
 - 选用之前生成的数据库，运行，制作完成背景小图  
-  ![](https://github.com/Oslomayor/Markdown-Imglib/blob/master/Imgs/rawB.png)
+  ![](https://github.com/Oslomayor/Markdown-Imglib/blob/master/Imgs/rawB.jpg)
 
 
 ## 2. 运行Python脚本
