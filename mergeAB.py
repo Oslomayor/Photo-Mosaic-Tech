@@ -26,8 +26,8 @@ def mergeAB(srcA,srcB,dstAB):
     imgA.save(dstAB)
 
 def main():
-	content = r"C:\Users\Denis\Desktop\TEMP\R2\\"
-	mergeAB(content+"rawA.jpg",content+"rawB.jpg",content+"AB.png")
+    content = r"C:\Users\Denis\Desktop\TEMP\R2\\"
+    mergeAB(content+"rawA.jpg",content+"rawB.jpg",content+"AB.png")
 	
 if __name__ == '__main__':
 	main()
