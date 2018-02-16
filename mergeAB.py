@@ -1,3 +1,4 @@
+# 10:34 PM, Feb 16th, 2018 @ home, Shangyu, 大年初一
 # 融合两张图片
 # 注意两张图片的尺寸要相同
 # 可配合 Foto-Mosaik-Edda 软件使用
@@ -24,6 +25,10 @@ def mergeAB(srcA,srcB,dstAB):
     # imgA.show()
     imgA.save(dstAB)
 
-content = r"C:\Users\Denis\Desktop\TEMP\R2\\"
-mergeAB(content+"rawA.jpg",content+"rawB.jpg",content+"AB.png")
+def main():
+	content = r"C:\Users\Denis\Desktop\TEMP\R2\\"
+	mergeAB(content+"rawA.jpg",content+"rawB.jpg",content+"AB.png")
+	
+if __name__ == '__main__':
+	main()
         
