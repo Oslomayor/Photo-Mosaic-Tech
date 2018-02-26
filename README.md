@@ -5,12 +5,12 @@
 
 ![](https://github.com/Oslomayor/Markdown-Imglib/blob/master/Imgs/AB.png)
 
-## 1. 食用目的
+## 食用目的
 
 1. 把成百上千张图片，有序组合，淡化处理，拼成一张大图片的背景
 2. 显得有技术有逼格，并且还有艺术感
 
-## 2. 食用工具
+## 食用工具
 
 ### 1. Foto-Mosaic-Edda
 
@@ -27,7 +27,7 @@
 - Foto-Mosaic-Edda 处理之后，就有马赛克的效果。它通过计算小图片的平均颜色，挑选出颜色匹配的小图片，来代替大图中的像素点。
 - 透明的效果更好看，因此借用 Foto-Mosaic-Edda 获得马赛克图，再用Python 脚本进行透明融合处理。
 
-## 3.食用步骤
+## 食用步骤
 
 ### 1. 制作背景小图
 
@@ -51,7 +51,7 @@
 - 脚本代码 [在此](https://github.com/Oslomayor/Photo-Mosaic-Tech/blob/master/mergeAB.py)
 - 注意图片的路径和图片名
 
-## 4. 图片透明融合原理
+## 图片透明融合原理
 
 - PNG 格式的图片，每个像素由4个通道的数据组成。
 - 除了R,G,B, 还有1个A通道，即 Alpha 通道，控制不透明度。Alpha 为100代表不透明，Alpha为0代表完全透明，Alpha为 0 -100 则代表半透明。
